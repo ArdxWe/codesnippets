@@ -12,11 +12,10 @@ static void insert_maxheap(entity* head, int len, entity* node) {
     }
     int i = len;
     while(node->priority > (head + (i-1)/2)->priority) {
-        printf("fuck\n");
         (head + i)->func = (head + (i-1)/2)->func;
         (head + i)->priority = (head + (i-1)/2)->priority;
         i = (i - 1) / 2;
-        if (i = 0) {
+        if (i == 0) {
             break;
         }
     }
@@ -41,6 +40,7 @@ static task delete_max_heap(entity* head, int len){
         head[parent].func = head[child].func;
         head[parent].priority = head[child].priority;
         parent = child;
+        child = child * 2 + 1;
     }
 
     head[parent].func = temp.func;
@@ -56,13 +56,10 @@ void init_queue(queue* q) {
 }
 
 int add_queue(queue* q, task func, int priority) {
-    printf("add call\n");
     if(q->size == q->count) {
-        printf("realloc\n");
-        q = (queue*)realloc(q, (q->size) << 1);
-        q->size = (q->size) << 1;
+        q->list = realloc(q->list, (q->size) * 2 * sizeof(entity));
+        q->size = (q->size) * 2;
     }
-    printf("queue size: %d\n", q->size);
 
     entity a;
     a.func = func;
@@ -85,8 +82,9 @@ void destroy_queue(queue* q) {
 }
 
 void show_queue(queue* q) {
+    printf("p: ");
     for (int i=0; i<q->count; i++) {
-        printf("p: %d ", (q->list)[i].priority);
+        printf("%d ", (q->list)[i].priority);
     }
     printf("\n");
 }

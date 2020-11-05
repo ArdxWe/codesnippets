@@ -2,7 +2,7 @@
     #define QUEUE_H
 
 
-#define QUEUE_SIZE 0x80
+#define QUEUE_SIZE 0x04
 
 typedef void (*task)(void);
 
