@@ -40,21 +40,21 @@ e call
 p: 564 56 65 45 18 8 34 1 3
 ```
 
-![add(1)](/images/1.jpg)
-![add(18)](/images/2.jpg)
-![add(8)](/images/3.jpg)
-![add(56)](/images/4.jpg)
-![add(79)](/images/5.jpg)
-![add(65)](/images/6.jpg)
-![get()](/images/7.jpg)
-![add(99)](/images/8.jpg)
-![get()](/images/9.jpg)
-![add(564)](/images/10.jpg)
-![add(34)](/images/11.jpg)
-![add(3)](/images/12.jpg)
-![add(569)](/images/13.jpg)
-![get()](/images/14.jpg)
-![add(15)](/images/15.jpg)
+![add(1)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/1.jpg)
+![add(18)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/2.jpg)
+![add(8)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/3.jpg)
+![add(56)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/4.jpg)
+![add(79)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/5.jpg)
+![add(65)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/6.jpg)
+![get()](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/7.jpg)
+![add(99)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/8.jpg)
+![get()](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/9.jpg)
+![add(564)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/10.jpg)
+![add(34)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/11.jpg)
+![add(3)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/12.jpg)
+![add(569)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/13.jpg)
+![get()](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/14.jpg)
+![add(15)](https://github.com/ArdxWe/codesnippets/blob/master/Embedded%20Systems/images/15.jpg)
 
 
 
