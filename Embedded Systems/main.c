@@ -1,3 +1,10 @@
+/*
+ * author: Duan Jiahua
+ * date  : 2020-11-05
+ * steps : gcc queue.c main.c -o main.out
+ *         ./main.out
+ */
+
 #include "queue.h"
 #include <stdio.h>
 
