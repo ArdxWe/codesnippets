@@ -70,6 +70,8 @@ void test() {
 
     add_queue(&q, &f, 45);
     show_queue(&q);
+
+    destroy_queue(&q);
 }
 
 void a() {
