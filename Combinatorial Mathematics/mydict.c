@@ -17,7 +17,12 @@ int main(int argc, char* argv[]) {
     }
 
     int num = atoi(argv[1]);
-    // printf("num: %d\n", num);
+    
+    if (num <= 0 || num >= 10) {
+        printf("usage: ./dict number (1 < number < 10)\n");
+        printf("       use q or bye quit me : )\n");
+        return 0;
+    }
 
     int str_len = num + 1;
     // printf("strlen: %d\n", str_len);
@@ -36,11 +41,11 @@ int main(int argc, char* argv[]) {
 
     char* p = target_ptr;
 
-    printf("index         |    number\n");
-    printf("%9d|    %s\n", 1, target_ptr);
+    printf("     index     |     number\n");
+    printf(" %9d     |     %s\n", 1, target_ptr);
     for (int i = 1; i < list_len; i++) {
         get_next(p, str_len, p + str_len);
-        printf("%9d     |    %s\n", i + 1, p + str_len);
+        printf(" %9d     |     %s\n", i + 1, p + str_len);
         p += str_len;
     }
 
@@ -51,7 +56,8 @@ int main(int argc, char* argv[]) {
         scanf("%s", input);
         if ((strcmp("bye", input) == 0) || (strcmp("BYE", input) == 0) || (strcmp("Bye", input) == 0)
              || (strcmp("b", input) == 0) || (strcmp("q", input) == 0)) {
-            printf("Good bye :)\n");
+            printf("Good bye :) \n");
+            printf("You could see my code in website: https://github.com/ArdxWe/codesnippets/tree/master/Combinatorial%%20Mathematics\n");
             free(target_ptr);
             return 0;
         }
