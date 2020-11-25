@@ -52,6 +52,7 @@ int main(int argc, char* argv[]) {
     char input[10];
     int index;
     while (true) {
+        printf("\n");
         printf("show your index, I will give you number :)\n");
         scanf("%s", input);
         if ((strcmp("bye", input) == 0) || (strcmp("BYE", input) == 0) || (strcmp("Bye", input) == 0)
